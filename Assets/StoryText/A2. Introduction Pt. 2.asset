@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: A2. Introduction Pt. 2
+  m_EditorClassIdentifier: 
+  storyText: "\t\u201COf course, I\u2019ll be there straight away. Thank you.\u201D
+    you say, nodding to the lad. He straightens up to attention for a moment and then
+    rushes off to spread the message further. You slide shut the hatch in the door,
+    turning around to face your chamber. \nA large window fills the room with natural
+    light, the morning sun shining brightly outside. Your chair is pulled away from
+    your desk, your book sitting closed atop other assorted documents. It is but one
+    of many books that you have collected over the years, and a large wooden bookcase
+    stands tall between your desk and bed.\r\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: 3e53fe1695df6594c8cfbe7c48025ae5, type: 2}
