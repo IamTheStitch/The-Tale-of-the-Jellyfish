@@ -35,7 +35,7 @@ public class NarrativeGame : MonoBehaviour
         {
             story = nextStates[0];
         }
-        else if (Input.GetKeyDown(KeyCode.Alpha1))
+        else if (nextStates.Length > 2 && Input.GetKeyDown(KeyCode.Alpha1))
         {
             story = nextStates[0];
             if (!purpleCoat)

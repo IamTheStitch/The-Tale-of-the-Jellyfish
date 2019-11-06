@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: A4. Great Hall pt.1
+  m_EditorClassIdentifier: 
+  storyText: "\tYou snap out of your memory, and rush out of your chamber. Being late
+    to a meeting with the Dragon King is never a good idea. The door to your chamber
+    is just one of many in the long hall of the palace\u2019s east wing. Brightly
+    colored tapestries fill the wall space between the bedchambers, depicting the
+    victories of the Dragon kingdom\u2019s past. One, depicting a battle won during
+    the great war, always stands out to you.\r\n\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: ddc45b312120fe747a214897aba64598, type: 2}

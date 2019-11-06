@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: A4. Great Hall pt.4
+  m_EditorClassIdentifier: 
+  storyText: "\u201CMaybe short notice meetings have their advantages after all,\u201D
+    you think to yourself.\r\n\u201CWho knows? Perhaps the king just wants someone
+    to talk to.\u201D you reply.\r\n\u201COh wouldn\u2019t that be something. Reminds
+    me of our last year at the academy, when those sots from Lutz tried to court us.
+    You sure got us out of a pinch then.\u201D\r\n\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: c0c9fcf09d1945e449828036b92cbb80, type: 2}

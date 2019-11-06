@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: A1. Prologue pt.1
+  m_EditorClassIdentifier: 
+  storyText: "<i>...What followed was the bloodiest war in recorded history, all eight
+    of the Great Kingdoms pitted against each other. Indeed, the most unnerving travesty
+    of this war is that nearly half of the total casualties were not soldiers falling
+    on the field of battle, but those marked by magic being cut down and used as mere
+    components in spells meant to weaken the opposition. Marked individuals were in
+    more danger than anyone, due merely to the circumstances of their birth. The worst
+    offender was the Enchantress-General of the Roc Kingdom, Hera Brandt. Herself
+    possessing the mark of the hawk, Brandt justified the slaughter of the Marked
+    as a sacrifice for their home kingdom, one that they should have been honoured
+    to make\u2026\r</i>\n\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: 09b4dcce634015b4b8a2bdd0c16d1b39, type: 2}

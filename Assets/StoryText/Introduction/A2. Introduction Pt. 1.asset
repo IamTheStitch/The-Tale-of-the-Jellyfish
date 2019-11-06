@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: A2. Introduction Pt. 1
+  m_EditorClassIdentifier: 
+  storyText: "You are pulled from your reading by a soft knocking at your chamber
+    door.\r\n\t\u201COne moment.\u201D you say, marking your place in Gaume\u2019s
+    Histories. You walk to the door and slide open the hatch that sits squarely in
+    the middle of it.\r\n\t\u201CThe King has called for all advisors to assemble
+    in the great hall, it is a matter most urgent!\u201D squeaks the page from the
+    other side. He\u2019s barely tall enough to peer through the hatch, dressed in
+    the usual gaudy attire afforded to those in his position. You lean a little bit
+    closer to the hatch so he can see you clearly.\r\n\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: 35fc0d44b970246499122681c7b74f05, type: 2}

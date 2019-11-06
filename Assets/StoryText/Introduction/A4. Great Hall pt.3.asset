@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: A4. Great Hall pt.3
+  m_EditorClassIdentifier: 
+  storyText: "\t\u201CHo there, Jellyfish!\u201D You turn to see who is addressing
+    you. It\u2019s Tatiana Messier, better known as the Boar. Unlike you, she chose
+    to name herself after her mark. It certainly suits her though. She\u2019s bigger
+    and stronger than most of the men at court, and twice as aggressive as most of
+    them as well.\r\n\n\u201CWhat d\u2019you think this meeting is all about then?\u201D
+    Tatiana the Boar asks, jogging up alongside you.\r She walks briskly, aided by
+    the fact that she didn\u2019t have to put on one of the elaborate and cumbersome
+    dresses customary for ladies of the aristocracy.\n\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: 7a8aed2d5a482be4c9141fa29f20ca9c, type: 2}
