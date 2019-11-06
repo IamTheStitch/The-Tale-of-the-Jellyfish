@@ -21,6 +21,9 @@ public class NarrativeGame : MonoBehaviour
 
     void Start()
     {
+        monkey = false;
+        dog = false;
+        pheasant = false;
         story = startingState;
         storyText.text = story.GetStateStory();
         muscle = 0;

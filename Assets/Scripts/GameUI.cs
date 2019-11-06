@@ -5,22 +5,54 @@ using UnityEngine.UI;
 
 public class GameUI : MonoBehaviour
 {
-    NarrativeGame game;
-    public Camera cameraUI;
+    private NarrativeGame game;
     public GameObject Jellyfish;
     public GameObject Monkey;
     public GameObject Dog;
     public GameObject Pheasant;
     public GameObject Inventory;
+    private SpriteRenderer sr;
+    private bool monkey, dog, pheasant;
     // Start is called before the first frame update
     void Start()
     {
-        cameraUI.gameObject.tag<Camera>() = "";
+        //monkey = game.monkey;
+       // dog = game.dog;
+        //pheasant = game.pheasant;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (monkey)
+        {
+            sr = Monkey.GetComponent<SpriteRenderer>();
+            sr.enabled = true;
+        }
+        else
+        {
+            sr = Monkey.GetComponent<SpriteRenderer>();
+            sr.enabled = false;
+        }
+        if (dog)
+        {
+            sr = Dog.GetComponent<SpriteRenderer>();
+            sr.enabled = true;
+        }
+        else
+        {
+            sr = Dog.GetComponent<SpriteRenderer>();
+            sr.enabled = false;
+        }
+        if (pheasant)
+        {
+            sr = Dog.GetComponent<SpriteRenderer>();
+            sr.enabled = true;
+        }
+        else
+        {
+            sr = Pheasant.GetComponent<SpriteRenderer>();
+            sr.enabled = false;
+        }
     }
 }
