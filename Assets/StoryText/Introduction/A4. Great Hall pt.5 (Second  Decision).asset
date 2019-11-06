@@ -21,4 +21,7 @@ MonoBehaviour:
     \n> ..feigning that you didn\u2019t understand what they were saying. You are
     fluent in three\r\nlanguages, all you had to do was pick out one that they didn\u2019t
     know. \n+1 to Intellect\r (Press 3)\n"
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: 1f1bbce9b35dbf84fa6980692a80cb7f, type: 2}
+  - {fileID: 11400000, guid: 1f1bbce9b35dbf84fa6980692a80cb7f, type: 2}
+  - {fileID: 11400000, guid: 1f1bbce9b35dbf84fa6980692a80cb7f, type: 2}
