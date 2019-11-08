@@ -12,47 +12,63 @@ public class GameUI : MonoBehaviour
     public GameObject Pheasant;
     public GameObject Inventory;
     private SpriteRenderer sr;
-    private bool monkey, dog, pheasant;
+    public bool monkey, dog, pheasant;
     // Start is called before the first frame update
     void Start()
     {
-        //monkey = game.monkey;
-       // dog = game.dog;
-        //pheasant = game.pheasant;
+        monkey = false;
+        dog = false;
+        pheasant = false;
+        
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        checkForActiveCharacters();
+    }
+    public bool setActive(bool character, int ID)
+    {
+        switch(ID)
+        {
+            case (1):
+                monkey = character;
+                break;
+            case (2):
+                dog = character;
+                break;
+            case (3):
+                pheasant = character;
+                break;
+        }
+        return false;
+    }
+    private void checkForActiveCharacters()
+    {
         if (monkey)
         {
-            sr = Monkey.GetComponent<SpriteRenderer>();
-            sr.enabled = true;
+            Monkey.SetActive(true);
         }
         else
         {
-            sr = Monkey.GetComponent<SpriteRenderer>();
-            sr.enabled = false;
+            Monkey.SetActive(false);
         }
         if (dog)
         {
-            sr = Dog.GetComponent<SpriteRenderer>();
-            sr.enabled = true;
+            Dog.SetActive(true);
         }
         else
         {
-            sr = Dog.GetComponent<SpriteRenderer>();
-            sr.enabled = false;
+            Dog.SetActive(false);
         }
         if (pheasant)
         {
-            sr = Dog.GetComponent<SpriteRenderer>();
-            sr.enabled = true;
+            Pheasant.SetActive(true);
         }
         else
         {
-            sr = Pheasant.GetComponent<SpriteRenderer>();
-            sr.enabled = false;
+            Pheasant.SetActive(false);
         }
     }
 }

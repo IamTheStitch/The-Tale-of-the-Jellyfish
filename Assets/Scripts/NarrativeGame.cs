@@ -1,44 +1,75 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class NarrativeGame : MonoBehaviour
 {
+    [Header("Story")]
     [SerializeField] Text storyText;
     [SerializeField] State startingState;
-    //first decisions
-    public bool purpleCoat, silverGauntlet, featherHat;
-    //counting the stats
-    public int muscle, charm, intellect;
-    //decision counter
-    public int decisions;
-    //characters
-    public bool monkey, dog, pheasant;
 
+    [Header("Clothing")]
+    public bool purpleCoat;
+    public bool silverGauntlet;
+    public bool featherHat;
+
+    [Header("Stats")]
+    public int muscle;
+    public int charm;
+    public int intellect;
+
+    private int decisions;
+
+    [Header("Characters")]
+    public bool monkey;
+    public bool dog;
+    public bool pheasant;
+
+    [Header("Types of Stats")]
+    public GameObject muscleStat;
+    public GameObject intStat;
+    public GameObject charmStat;
+    private TextMeshProUGUI mStat, iStat, cStat;
+
+    [Header("In-Game")]
+    public GameObject Jellyfish;
+    public GameObject Monkey;
+    public GameObject Dog;
+    public GameObject Pheasant;
+    public GameObject Inventory;
+
+    [Header("Dice")]
+    public GameObject dice;
+    public int diceRoll;
     State story;
 
     void Start()
     {
-        monkey = false;
-        dog = false;
-        pheasant = false;
         story = startingState;
         storyText.text = story.GetStateStory();
         muscle = 0;
         charm = 0;
         intellect = 0;
         decisions = 0;
+        diceRoll = 0;
+        mStat = muscleStat.GetComponent<TextMeshProUGUI>();
+        iStat = intStat.GetComponent<TextMeshProUGUI>();
+        cStat = charmStat.GetComponent<TextMeshProUGUI>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        ManageState(); 
+        manageState();
+        checkForActiveCharacters();
+        updateStats();
     }
 
-    private void ManageState()
+    private void manageState()
     {
         State[] nextStates = story.GetNextStates();
 
@@ -62,6 +93,7 @@ public class NarrativeGame : MonoBehaviour
                                 silverGauntlet = false;
                                 featherHat = false;
                                 decisions++;
+
                                 break;
                             }
                             else if (index == 1)
@@ -120,5 +152,42 @@ public class NarrativeGame : MonoBehaviour
             }
             storyText.text = story.GetStateStory();
         }
+    }
+    private void checkForActiveCharacters()
+    {
+        if (monkey)
+        {
+            Monkey.SetActive(true);
+        }
+        else
+        {
+            Monkey.SetActive(false);
+        }
+        if (dog)
+        {
+            Dog.SetActive(true);
+        }
+        else
+        {
+            Dog.SetActive(false);
+        }
+        if (pheasant)
+        {
+            Pheasant.SetActive(true);
+        }
+        else
+        {
+            Pheasant.SetActive(false);
+        }
+    }
+    private void updateStats()
+    {
+        mStat.text = muscle.ToString();
+        iStat.text = intellect.ToString();
+        cStat.text = charm.ToString();
+    }
+    public void rollDice()
+    {
+        diceRoll = (int) Random.Range(1.0f, 7.0f);
     }
 }
