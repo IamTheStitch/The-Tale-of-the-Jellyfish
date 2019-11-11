@@ -16,6 +16,9 @@ public class NarrativeGame : MonoBehaviour
     public bool purpleCoat;
     public bool silverGauntlet;
     public bool featherHat;
+    public bool usingMuscle;
+    public bool usingCharm;
+    public bool usingIntellect;
 
     [Header("Stats")]
     public int muscle;
@@ -45,6 +48,7 @@ public class NarrativeGame : MonoBehaviour
     [Header("Dice")]
     public GameObject dice;
     public int diceRoll;
+    public TextMeshProUGUI diceAmount;
     State story;
 
     void Start()
@@ -188,6 +192,33 @@ public class NarrativeGame : MonoBehaviour
     }
     public void rollDice()
     {
-        diceRoll = (int) Random.Range(1.0f, 7.0f);
+        if (Input.GetKeyDown(KeyCode.Return))
+            return;
+        if (usingCharm)
+        {
+            dice.gameObject.SetActive(true);
+            diceAmount.gameObject.SetActive(true);
+            diceRoll = (int)Random.Range(1.0f, 7.0f + charm);
+        }
+            
+        else if (usingIntellect)
+        {
+            dice.gameObject.SetActive(true);
+            diceAmount.gameObject.SetActive(true);
+            diceRoll = (int)Random.Range(1.0f, 7.0f) + intellect;
+        }
+            
+        else if (silverGauntlet)
+        {
+            dice.gameObject.SetActive(true);
+            diceAmount.gameObject.SetActive(true);
+            diceRoll = (int)Random.Range(1.0f, 7.0f) + muscle;
+        }           
+
+        diceAmount.text = diceRoll.ToString();
     }
+
+    /*
+     * Options to show if conditions are met, set it true, else false for active
+     */
 }
