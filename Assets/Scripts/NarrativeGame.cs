@@ -43,7 +43,6 @@ public class NarrativeGame : MonoBehaviour
     public GameObject Monkey;
     public GameObject Dog;
     public GameObject Pheasant;
-    public GameObject Inventory;
 
     [Header("Dice")]
     public GameObject dice;
@@ -214,7 +213,23 @@ public class NarrativeGame : MonoBehaviour
             diceAmount.gameObject.SetActive(true);
             diceRoll = (int)Random.Range(1.0f, 7.0f) + muscle;
         }           
-
+        //implement DiceRollChangning Sprites
+        switch(diceRoll)
+        {
+            case (1):
+               // dice.gameObject.GetComponent<Image>();
+                break;
+            case (2):
+                break;
+            case (3):
+                break;
+            case (4):
+                break;
+            case (5):
+                break;
+            case (6):
+                break;
+        }
         diceAmount.text = diceRoll.ToString();
     }
 

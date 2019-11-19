@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: A5. Meeting the KIng Pt.2
+  m_EditorClassIdentifier: 
+  storyText: "The King\u2019s arrival is preceded by the sound of his lumbering footsteps.
+    The door at the rear of the grand hall, specially made to accommodate his great
+    height, swings open. Despite the extra space, the King\u2019s frame still took
+    up the entire frame. He steps through, slowly. He\u2019s clad in his usual opulent
+    attire, but he does not carry his usual air of regality. His eyes are sunken,
+    his shoulder-length hair is unkempt. He does not, by any account, look well.\r\n
+    \   As soon as the King enters the room, everyone rises from the table. The silence
+    hanging in the air is broken by the screeching of the King\u2019s vast metal chair
+    as it scrapes against the marble floor. He doesn\u2019t even need to strain to
+    pull it aside. The King slumps into the throne, and stares at nothing for a few
+    moments before motioning for the advisors to sit. There are a few moments of shuffling
+    before silence once again overtakes the room.\r\n\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: c487fadb4729867478d1603b187efb32, type: 2}

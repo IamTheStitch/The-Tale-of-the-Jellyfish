@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: A6. Bold Jellyfish
+  m_EditorClassIdentifier: 
+  storyText: "You look into the King\u2019s cold eyes as you speak, watching them
+    narrow with each word. You feel a pit in your stomach as his face contorts into
+    a mask of rage.\r\n\u201CYou would dare to defy your king?\u201D he asks quietly.\r\nHis
+    fists are clenched so tightly that you think they may burst. No one at the table
+    dares to move. He cuts you off as you open your mouth to reply.\r\n\u201CYou have
+    worked very hard to get where you are. It would be a terrible shame for all that
+    effort to amount to nothing. For you to rot in a pauper\u2019s grave, having done
+    nothing with a miserable excuse for a life.\u201D\r\nHis voice has risen now,
+    and you feel as though you are shrinking at his feet.\r\n\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: d42c6935750fbaa4c9f0b248d7ea7d9c, type: 2}

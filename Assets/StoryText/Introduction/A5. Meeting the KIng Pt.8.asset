@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: A5. Meeting the KIng Pt.8
+  m_EditorClassIdentifier: 
+  storyText: "\u201CThat\u2019s right. I had to do much to be admitted to the academy.\u201D
+    you admit. The circumstances of your low birth are not usually something you like
+    to discuss, particularly not with the Dragon King. He looks you up and down before
+    continuing.\r\n    \u201CNo one- and I do mean no one- has ever done what you
+    have done. Not in my kingdom and not in any of the other Great Kingdoms, to the
+    extent of my knowledge. You transcended the caste system that is the basis for
+    our society. I should congratulate you on your extraordinary achievement.\u201D\r\n
+    \   You manage to stammer out your thanks, though you\u2019re not sure if that\u2019s
+    what the King wants. He continues:\r\n    \u201CThat is why I consider it very
+    lucky that you are present here. For you see, you are very uniquely positioned
+    to save the Queen\u2019s life.\u201D\r\n    The King looks at you solemnly, seemingly
+    waiting for a response. Your silence speaks for you.\r\n\r\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: e0c4843f749ca8c488d36754032f23f8, type: 2}

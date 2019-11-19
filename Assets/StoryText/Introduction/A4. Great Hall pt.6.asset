@@ -22,4 +22,5 @@ MonoBehaviour:
     all corners of the palace. When you approach the large doors to the grand hall,
     you find that they\u2019re already open. You follow close behind Tatiana as she
     sidles through to the grand hall.\n\n(Press Enter to Continue)"
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: 3010e100fef9be24685ed436f09583ee, type: 2}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: A5. Meeting the KIng Pt.7
+  m_EditorClassIdentifier: 
+  storyText: "\u201CI\u2019m disgusted that we\u2019re considering this at all!\u201D\r\n
+    \   No one seems to hear her but you. If they do they don\u2019t say anything
+    in response. The King leans to one of the advisors close to him and motions in
+    your direction. You can\u2019t tell if his motion is at you or someone near you.
+    The man he\u2019s questioning nods, and whispers something back. The King rubs
+    his right temple. Another minute passes, your nervousness begins to worsen as
+    you notice the King glancing at you repeatedly while deep in thought. He stands,
+    and walks towards your part of the table.\r\n    \u201CWould you join me for a
+    moment?\u201D he says, peering down at you. You blink, your nerves getting the
+    best of you for a moment. The King raises one eyebrow, not breaking eye contact.
+    The advisor seating to your left nudges you and you hurriedly stand.\r\n    \u201CY-yes.
+    Of course.\u201D you stutter, and the King leads you away from the central table.
+    \r\n    \u201CAm I to understand that you were not born of noble blood?\u201D
+    he asks bluntly, once you\u2019re more or less out of earshot from the rest of
+    the assembly. You feel your cheeks flush.\r\n\r\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: 931d19c6d832bf64d970cb42f877ecb9, type: 2}

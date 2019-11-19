@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: A6. Agreeable Jellyfish 1
+  m_EditorClassIdentifier: 
+  storyText: " He forces those last words out, and you can tell he doesn\x19t believe
+    them. Or, perhaps, doesn\x19t want to. He gives one last stern glance about the
+    room.\r\n    \x1CIf any of you have any objections to this course of action, you
+    may discuss it with me personally.\x1D\r\n    As he turns and leaves the way he
+    came, no one dares to follow and question his decision. The meeting concluded,
+    you are whisked off by a pair of guards to a cramped room in a wing of the palace
+    you\x19ve never been to before.\r\n\n(Press Enter to Continue)"
+  nextStates: []

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: A6. Bold Jellyfish 1
+  m_EditorClassIdentifier: 
+  storyText: "\x1CBut that does not need to happen, does it? All it would take is
+    a wave of my hand, but I shall not do that. Not yet. Your luck continues to hold
+    out this day. You are being given a second chance. Do what I have asked, and you
+    might yet do something with yourself. Do not, and it will be as though you never
+    existed.\x1D \nAll you can muster is a half-hearted nod. Your body is shaking
+    uncontrollably. A guard takes you by the arm and escorts you out of the grand
+    hall.\r\n\x1CDo not disappoint me!\x1D the King booms as the door closes behind
+    you and the guard.\r\nYou are led through the winding halls of the palace to a
+    small cramped room in a wing you have not visited before.\r\n\n(Press Enter to
+    Continue)"
+  nextStates: []

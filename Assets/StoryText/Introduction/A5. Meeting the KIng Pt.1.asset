@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: A5. Meeting the KIng Pt.1
+  m_EditorClassIdentifier: 
+  storyText: "As much as your don\u2019t want to, you\u2019re forced to split up with
+    Tatiana once inside. Your seat at the long table in the middle of the hall is
+    on the opposite side from hers. It makes sense, as you\u2019re an advisor on city
+    planning while she\u2019s an expert on military matters. There\u2019s a low murmuring
+    throughout the room, everyone speculating about what the cause of the sudden gathering
+    might be. The grand hall is not so grand today, as there are no banquets on the
+    horizon. The gaudy decor that usually covers every surface of the massive room
+    is nowhere to be seen, put away until the time for festivities comes again. The
+    room feels empty, despite the number of people gathered around the table. You
+    awkwardly take your seat, acutely aware that you are one of the youngest people
+    in the room, and wait for another few minutes for the rest of the advisors to
+    trickle in.\r\n\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: f977ed9f579398749a034981723cee7f, type: 2}

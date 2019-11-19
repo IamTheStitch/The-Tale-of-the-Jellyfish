@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: A5. Meeting the KIng Pt.9
+  m_EditorClassIdentifier: 
+  storyText: "\u201CWhat was said a few moments ago about the people needed coming
+    to the palace willingly gave me cause to consider your peculiar circumstances.
+    I am well aware of the divide that exists between the nobility and the common
+    folk in my kingdom. The contempt that much of the lower class holds for the upper
+    is no secret to me. Thus, there are very few who I could send on this errand to
+    bring those ever so critical individuals back here for me. Anyone in my service
+    would be sniffed out immediately, become suspicious. Anyone, save for you.\u201D\r\n
+    \   You can hardly believe what you\u2019re hearing. A task given to you, given
+    personally no less, by the King himself. You think back to the endless days and
+    nights you spent in pursuit of a chance, just a chance at escaping the grit and
+    hardship that comes with being born amongst lowlives. And now you have the opportunity
+    to do something that will cement your place as invaluable on the King\u2019s court.
+    But what of the task? You rub the mark on the side of your face as you consider
+    the magnitude of the crime you are being asked to commit.\r\n\n(Press Enter to
+    Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: c619ac6b8e3c0b54e8792c561f066810, type: 2}

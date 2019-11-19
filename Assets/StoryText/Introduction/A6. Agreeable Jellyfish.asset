@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: A6. Agreeable Jellyfish
+  m_EditorClassIdentifier: 
+  storyText: "The King tightens his lips into a forced grin. It\u2019s clear the stress
+    of the situation is weighing on him, but he\u2019s nonetheless pleased with your
+    cooperation. Now dismissed, you return to your seat. The short walk across the
+    room feels like a thousand miles with the eyes of everyone fixed on you. You fall
+    into your seat, beginning to feel the weight of your new responsibility weighing
+    down on you.\r\n    \u201CThanks to my new friend,\u201D says the King, \u201CI\u2019ve
+    come to a decision. If we can find any who would come to the palace\u2026 willingly\u2026\u201D
+    he puts an odd strain on the word, \u201C... to aid this cause, then we shall
+    resolve the issue using the magical method. If there are not, then it was not
+    fated to be.\u201D\r\n\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: 72af112a1f1b43444a3dd0ab8af49a13, type: 2}

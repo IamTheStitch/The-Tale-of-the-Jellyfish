@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: A5. Meeting the KIng Pt.6
+  m_EditorClassIdentifier: 
+  storyText: "\u201CI am aware of the\u2026 shortcomings of that solution. That is
+    exactly the reason I have assembled you here. My trusted advisors. I considered
+    keeping this between myself and only a select few people, but in the end I decided
+    that complete transparency would be the best course of action to take.\u201D he
+    glares sternly around the room. The first person who dares to speak is a foreign
+    affairs advisor. You don\u2019t remember their name.\r\n    \u201CYour Majesty,
+    surely you can\u2019t believe that would work? Where do you think you\u2019ll
+    get the people? Word will get around if you kidnap anyone, it always does. Even
+    using prisoners is risky. Unless you believe that you can somehow persuade people
+    to willingly give their lives for this endeavor.\u201D\r\n    Someone else pipes
+    up,\r\n    \u201CWhat\u2019re the components we\u2019d need for this ritual, anyhow?\u201D\r\n
+    \   \u201CThe human parts, if that\u2019s what you\u2019re asking,\u201D answers
+    Trozzo, \u201Care the liver of one who bears the mark of the monkey, the blood
+    of one who bears the mark of a pheasant, and the heart of one with the mark of
+    the dog. If the old texts are to be believed, that is.\u201D\r\n\n\r\n(Press Enter
+    to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: a948751c28e686f468ada184abbad591, type: 2}
