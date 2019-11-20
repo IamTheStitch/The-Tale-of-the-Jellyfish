@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   storyText: "You remember these particular sots, aristocrats from the neighboring
     Phoenix kingdom, paying a diplomatic visit. They had pursued you and Tatiana endlessly
-    until you finally got rid of them.\r\nIt was as simple as..\r\n> ..giving one
+    until you finally got rid of them.\r\nIt was as simple as..\r\n\n> ..giving one
     of them a good sock in the nose. Scared them right off! \n+1 to Muscle\r (Press
-    1)\n> ..asking as many annoying and dull questions as you could think of until
-    they couldn\u2019t\r\nstand to be around you anymore. \n+1 to Charm\r (Press 2)
-    \n> ..feigning that you didn\u2019t understand what they were saying. You are
-    fluent in three\r\nlanguages, all you had to do was pick out one that they didn\u2019t
+    1)\n\n> ..asking as many annoying and dull questions as you could think of until
+    they couldn\u2019t\r\nstand to be around you anymore. \n+1 to Charm\r (Press 2)\n\n>
+    ..feigning that you didn\u2019t understand what they were saying. You are fluent
+    in three\r\nlanguages, all you had to do was pick out one that they didn\u2019t
     know. \n+1 to Intellect\r (Press 3)\n"
   nextStates:
   - {fileID: 11400000, guid: 1f1bbce9b35dbf84fa6980692a80cb7f, type: 2}

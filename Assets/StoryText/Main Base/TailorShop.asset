@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: TailorShop
+  m_EditorClassIdentifier: 
+  storyText: "The room you are deposited in is plain, very much unlike the rest of
+    the palace. A few candles dimly illuminate the dark wood walls and simple furniture.
+    There are no windows. A small round table and two wood chairs have been placed
+    haphazardly in the room. You are left alone to wait for some time. As you watch
+    the candles melt away, you wonder what exactly the King has in store for you.\r\n\nYou\u2019re
+    beginning to nod off when the door to the room opens and you are joined by a woman
+    that you recognize as the head of the King\u2019s spy network. After closing the
+    door behind her, she sits down across the table from you, locking eyes with you
+    and saying nothing. The candlelight casts eerie shadows on her face, and her dark
+    clothing makes her seem almost incorporeal in the low light.\r\n\n\u201CRight
+    then,\u201D she says, \u201CYou\u2019ve landed yourself in quite the rut.\u201D\r\nYou
+    nod in agreement.\r\n\n\u201CI\u2019ve pulled everything together to make this
+    as easy as possible for you. King was wise to pick you for the job, everyone in
+    my employ are cutthroats and thugs, and they\u2019re watched constantly. I spend
+    half my time trying to keep snoops from the other kingdoms off my arse.\u201D
+    she grins wryly at this. You don\u2019t find it as amusing.\r\n\n(Press Enter
+    to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: 2c6afd83bf30b3c419d1b4150c2bc7b2, type: 2}

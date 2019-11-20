@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: TailorShop 2
+  m_EditorClassIdentifier: 
+  storyText: "\u201CName\u2019s Hugo.\u201D the old man says. His voice sounds just
+    as slimy as he looks. He leads you inside the tailor shop, hobbling at a snail\u2019s
+    pace. Inside, you find a completely ordinary shop. Mannequins with different outfits
+    are standing posed all about the front room. The walls are covered with velvet
+    wallpaper of a deep crimson color. The wood floor is polished to the point that
+    when you look down, you can see your face in it.\r\n\nHugo, though slow, has crossed
+    the room as you gawk at everything.\r\n\n\u201C \u2018Mon then, we ain\u2019t
+    got time to waste \u2018ere\u201D\r\n\nHe waves you to the back room. Following
+    him inside, you suddenly grasp just what adjustments had been made to the shop.
+    Four armed individuals are lounging on piles of clothes around the room. In the
+    center, a massive stone cylinder that looks like it weighs a ton has four sets
+    of shackles attached to it. You wonder how they got a thing like that inside without
+    breaking something.\r\n\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: fc7f053791e4c1f45a339206bd3b0618, type: 2}

@@ -19,4 +19,5 @@ MonoBehaviour:
     came, no one dares to follow and question his decision. The meeting concluded,
     you are whisked off by a pair of guards to a cramped room in a wing of the palace
     you\x19ve never been to before.\r\n\n(Press Enter to Continue)"
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: 1611ddd1de9303b49b24ab33a806ab38, type: 2}
