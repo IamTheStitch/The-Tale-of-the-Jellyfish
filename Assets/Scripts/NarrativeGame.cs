@@ -211,6 +211,7 @@ public class NarrativeGame : MonoBehaviour
             Pheasant.SetActive(false);
         }
     }
+    
     private void UpdateStats()
     {
         mStat.text = muscle.ToString();
