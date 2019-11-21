@@ -1,5 +1,5 @@
 sceneSetups:
-- path: C:/Users/Owner/Documents/GitHub/Wizard_Lizard_Fight/Assets/Scenes/PlayerSelect.unity
+- path: Assets/Scenes/Game Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
