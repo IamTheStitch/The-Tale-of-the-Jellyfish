@@ -461,7 +461,7 @@ PrefabInstance:
     - target: {fileID: 8433261790785620425, guid: 27234ecaef07c7845acab25773e25e2a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: rollDice
+      value: RollDice
       objectReference: {fileID: 0}
     - target: {fileID: 8433261790785620425, guid: 27234ecaef07c7845acab25773e25e2a,
         type: 3}
@@ -1293,6 +1293,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 220a77056718c184ea57835051516b5f,
         type: 3}
+    - target: {fileID: 1043660307617808238, guid: 2484538fa48a7f64fb38a40b0dc5e24b,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043660307617808238, guid: 2484538fa48a7f64fb38a40b0dc5e24b,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1043660307617808238, guid: 2484538fa48a7f64fb38a40b0dc5e24b,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3692529909021617067, guid: 2484538fa48a7f64fb38a40b0dc5e24b,
         type: 3}
       propertyPath: m_RenderMode
@@ -1991,6 +2006,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b831239ca522e747a5e51bf6551ff34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dice1: {fileID: 21300000, guid: 5a9cd3831b115494799bedb8cc62f558, type: 3}
+  dice2: {fileID: 21300000, guid: 195c5e2cfe35e5e498f097e26b2525dd, type: 3}
+  dice3: {fileID: 21300000, guid: 1f1df17976d9e0346ba52fb87b386380, type: 3}
+  dice4: {fileID: 21300000, guid: ee7cebaa524939d479466308b595e015, type: 3}
+  dice5: {fileID: 21300000, guid: 4efdd3e9eff49a74ea7b7b939e318e53, type: 3}
+  dice6: {fileID: 21300000, guid: 5f106c7db5f9dd24798bebd1220c23e5, type: 3}
+  coat: {fileID: 21300000, guid: e526f10ef3668e24686a8f7821dfc7b4, type: 3}
+  gauntlet: {fileID: 21300000, guid: 98087b4f90568e64b8a23c4e4f4e53f9, type: 3}
+  hat: {fileID: 21300000, guid: 220a77056718c184ea57835051516b5f, type: 3}
   storyText: {fileID: 1977626246}
   startingState: {fileID: 11400000, guid: f598766353ce2134b80eae5154f7a7e0, type: 2}
   purpleCoat: 0
@@ -2012,7 +2036,6 @@ MonoBehaviour:
   Monkey: {fileID: 815262815}
   Dog: {fileID: 148497820}
   Pheasant: {fileID: 1257110081}
-  Inventory: {fileID: 0}
   dice: {fileID: 487331763}
   diceRoll: 0
   diceAmount: {fileID: 487331762}
@@ -2173,7 +2196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7169812, g: 0.67301536, b: 0.67301536, a: 1}
+  m_Color: {r: 0, g: 1, b: 0.07481265, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:

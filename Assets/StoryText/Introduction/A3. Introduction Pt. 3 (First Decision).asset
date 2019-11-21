@@ -15,10 +15,10 @@ MonoBehaviour:
   storyText: "\t\u201CWell,\u201D you mutter to yourself, \u201Cif it\u2019s an audience
     with the King then I\u2019d better look presentable.\u201D\r\nYou grab:\r\n\n>Your
     cloak from the Royal Academy. It is a deep purple, indicating the highest level
-    of\r\nscholarly achievement. -- +2 to Intellect Stat\r (Press 1)\n>A pair of weighty
-    silver gauntlets, a gift from your first mentor -- +2 to Muscle Stat\r (Press
-    2)\n>A brightly colored hat with a feather sticking out of it, the latest rage
-    in the fashion\r\nworld -- +2 to Charm Stat\r (Press 3)\n"
+    of\r\nscholarly achievement. -- +2 to Intellect Stat\r (Press 1)\n\n>A pair of
+    weighty silver gauntlets, a gift from your first mentor -- +2 to Muscle Stat\r
+    (Press 2)\n\n>A brightly colored hat with a feather sticking out of it, the latest
+    rage in the fashion\r\nworld -- +2 to Charm Stat\r (Press 3)\n"
   nextStates:
   - {fileID: 11400000, guid: cee16f20193960c4d9a0d39b3a6d0471, type: 2}
   - {fileID: 11400000, guid: a83890ef8ca79bf45a2c57de6d7db4bc, type: 2}

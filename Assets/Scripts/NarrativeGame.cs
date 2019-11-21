@@ -8,6 +8,18 @@ using Random = UnityEngine.Random;
 
 public class NarrativeGame : MonoBehaviour
 {
+    [SerializeField] private Sprite dice1;
+    [SerializeField] private Sprite dice2;
+    [SerializeField] private Sprite dice3;
+    [SerializeField] private Sprite dice4;
+    [SerializeField] private Sprite dice5;
+    [SerializeField] private Sprite dice6;
+
+    [Header("Jellyfish Clothing Choice")]
+    [SerializeField] private Sprite coat;
+    [SerializeField] private Sprite gauntlet;
+    [SerializeField] private Sprite hat;
+
     [Header("Story")]
     [SerializeField] Text storyText;
     [SerializeField] State startingState;
@@ -24,6 +36,8 @@ public class NarrativeGame : MonoBehaviour
     public int muscle;
     public int charm;
     public int intellect;
+    private int agreeable;
+    private int bold;
 
     private int decisions;
 
@@ -52,13 +66,15 @@ public class NarrativeGame : MonoBehaviour
 
     void Start()
     {
+        Jellyfish.SetActive(false);
         story = startingState;
         storyText.text = story.GetStateStory();
         muscle = 0;
         charm = 0;
         intellect = 0;
         decisions = 0;
-        diceRoll = 0;
+        diceRoll = 1;
+        diceAmount.text = diceRoll.ToString();
         mStat = muscleStat.GetComponent<TextMeshProUGUI>();
         iStat = intStat.GetComponent<TextMeshProUGUI>();
         cStat = charmStat.GetComponent<TextMeshProUGUI>();
@@ -67,12 +83,12 @@ public class NarrativeGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        manageState();
-        checkForActiveCharacters();
-        updateStats();
+        ManageState();
+        CheckForActiveCharacters();
+        UpdateStats();
     }
 
-    private void manageState()
+    private void ManageState()
     {
         State[] nextStates = story.GetNextStates();
 
@@ -96,8 +112,6 @@ public class NarrativeGame : MonoBehaviour
                                 silverGauntlet = false;
                                 featherHat = false;
                                 decisions++;
-
-                                break;
                             }
                             else if (index == 1)
                             {
@@ -106,7 +120,6 @@ public class NarrativeGame : MonoBehaviour
                                 muscle += 2;
                                 featherHat = false;
                                 decisions++;
-                                break;
                             }
                             else if (index == 2)
                             {
@@ -115,7 +128,6 @@ public class NarrativeGame : MonoBehaviour
                                 featherHat = true;
                                 charm += 2;
                                 decisions++;
-                                break;
                             }
                             break;
                         case (1):
@@ -123,22 +135,23 @@ public class NarrativeGame : MonoBehaviour
                             {
                                 muscle++;
                                 decisions++;
-                                break;
                             }
                             else if (index == 1)
                             {
                                 charm++;
                                 decisions++;
-                                break;
                             }
                             else if (index == 2)
                             {
                                 intellect++;
                                 decisions++;
-                                break;
                             }
                             break;
                         case (2):
+                            if (index == 0)
+                                agreeable++;
+                            else if (index == 1)
+                                bold++;
                             break;
                         case (3):
                             break;
@@ -156,8 +169,23 @@ public class NarrativeGame : MonoBehaviour
             storyText.text = story.GetStateStory();
         }
     }
-    private void checkForActiveCharacters()
+    private void CheckForActiveCharacters()
     {
+        if(purpleCoat)
+        {
+            Jellyfish.GetComponent<SpriteRenderer>().sprite = coat;
+            Jellyfish.SetActive(true);
+        }
+        if (silverGauntlet)
+        {
+            Jellyfish.GetComponent<SpriteRenderer>().sprite = gauntlet;
+            Jellyfish.SetActive(true);
+        }
+        if (featherHat)
+        {
+            Jellyfish.GetComponent<SpriteRenderer>().sprite = hat;
+            Jellyfish.SetActive(true);
+        }
         if (monkey)
         {
             Monkey.SetActive(true);
@@ -183,16 +211,16 @@ public class NarrativeGame : MonoBehaviour
             Pheasant.SetActive(false);
         }
     }
-    private void updateStats()
+    private void UpdateStats()
     {
         mStat.text = muscle.ToString();
         iStat.text = intellect.ToString();
         cStat.text = charm.ToString();
     }
-    public void rollDice()
+    public void RollDice()
     {
-        if (Input.GetKeyDown(KeyCode.Return))
-            return;
+        if(!usingCharm || !usingIntellect || !usingMuscle)
+            diceRoll = (int)Random.Range(1.0f, 7.0f);
         if (usingCharm)
         {
             dice.gameObject.SetActive(true);
@@ -217,23 +245,36 @@ public class NarrativeGame : MonoBehaviour
         switch(diceRoll)
         {
             case (1):
-               // dice.gameObject.GetComponent<Image>();
+                dice.gameObject.GetComponent<Image>().sprite = dice1;
                 break;
             case (2):
+                dice.gameObject.GetComponent<Image>().sprite = dice2;
                 break;
             case (3):
+                dice.gameObject.GetComponent<Image>().sprite = dice3;
                 break;
             case (4):
+                dice.gameObject.GetComponent<Image>().sprite = dice4;
                 break;
             case (5):
+                dice.gameObject.GetComponent<Image>().sprite = dice5;
                 break;
             case (6):
+                dice.gameObject.GetComponent<Image>().sprite = dice6;
                 break;
         }
         diceAmount.text = diceRoll.ToString();
     }
+    private void MonkeyEncounter()
+    {
 
-    /*
-     * Options to show if conditions are met, set it true, else false for active
-     */
+    }
+    private void DogEncounter()
+    {
+
+    }
+    private void PheasantEncounter()
+    {
+
+    }
 }

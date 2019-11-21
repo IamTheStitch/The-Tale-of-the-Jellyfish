@@ -15,11 +15,11 @@ MonoBehaviour:
   storyText: "The silence that has been weighing down on the room is broken as everyone
     at the table erupts. Trozzo cowers back into her chair, and the king sits silently
     for what feels like a long time. Shouts bounce around the room, directed nowhere
-    in particular.\r\n    \u201CPreposterous!\u201D\r\n    \u201CBut it\u2019s for
-    the Queen!\u201D\r\n    \u201CIt\u2019s against the law!\u201D\r\n    \u201CShe
-    can\u2019t be seriously considering-\u201D\r\n    \u201CWhat do a few peasants
-    matter?\u201D\r\n    The King rises and slams his massive fist down on the table,\r\n
-    \   \u201CENOUGH!\u201D\r\n    His shout rings through the grand hall, and you
+    in particular.\r\n\n    \u201CPreposterous!\u201D\r\n\n    \u201CBut it\u2019s
+    for the Queen!\u201D\r\n\n    \u201CIt\u2019s against the law!\u201D\r\n\n    \u201CShe
+    can\u2019t be seriously considering-\u201D\r\n\n    \u201CWhat do a few peasants
+    matter?\u201D\r\n\n    The King rises and slams his massive fist down on the table,\r\n
+    \   \u201CENOUGH!\u201D\r\n\n    His shout rings through the grand hall, and you
     think it was probably heard throughout the palace.\r\n\r\n(Press Enter to Continue)"
   nextStates:
   - {fileID: 11400000, guid: 47f9dfffe0087ed40af0e6f9d53146b5, type: 2}
