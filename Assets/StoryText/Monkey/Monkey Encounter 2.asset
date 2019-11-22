@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Monkey Encounter 2
+  m_EditorClassIdentifier: 
+  storyText: "The market consists of both storefronts and street vendors. The latter
+    make up the majority, with temporary tents and stands set up all over the area.
+    Merchants do as much as possible to call attention to themselves, most decorate
+    their tents with brightly colored banners and shout as loud as possible to turn
+    heads. Between them and the crowd of customers and passers-through, you can barely
+    hear yourself think, and you\u2019re accustomed to this kind of chaos. <i>No way
+    anyone who grew up in the palace or some manor could navigate this place,</i>
+    you think. It takes you a while, but you eventually catch sight of the store front
+    with <i>Magie du Singe</i> painted above the door. You push your way through the
+    crowd and duck inside.\r\n\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: c524b6401e65a524891a3fc06e3b9303, type: 2}

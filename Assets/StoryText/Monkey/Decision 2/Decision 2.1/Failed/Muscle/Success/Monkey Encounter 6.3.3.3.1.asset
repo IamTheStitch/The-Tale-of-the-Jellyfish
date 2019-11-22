@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Monkey Encounter 6.3.3.3.1
+  m_EditorClassIdentifier: 
+  storyText: "You wrestle Dubos to the ground, using your greater strength to pin
+    him. He struggles, attempting to smash the potion bottle over your head, but he
+    can\u2019t quite manage it. You grab his wrist and smack his hand against the
+    floor until he lets go of the bottle, and you push it as far away from the struggle
+    as you can. Dubos starts to scream, and in a desperate move you jump off of him
+    and grab a very large book from the table in the center of the room. You swing
+    the book in a wide arc, hitting Dubos in the head as he tries to get up from the
+    floor. He falls back down, unconscious.\r\n\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: 80f3a839f60bc8947bfbc5e8b31602a2, type: 2}

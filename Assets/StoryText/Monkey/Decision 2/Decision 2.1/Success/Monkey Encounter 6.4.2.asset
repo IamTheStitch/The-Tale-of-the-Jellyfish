@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Monkey Encounter 6.4.2
+  m_EditorClassIdentifier: 
+  storyText: "\u201CLike I said, the King likes to maintain discretion. He believes
+    that if word got out he was hiring commoners to do palace work he\u2019d have
+    an endless line of people begging for employment. So you\u2019ll need to wait
+    here for a while, and then you\u2019ll be taken to the palace.\u201D you reply,
+    thinking quickly on your feet. Before he has time to protest, you all but shove
+    him into the shop. As it turns out, this final push isn\u2019t as heavy handed
+    as it first seemed to you. As soon as the door closes behind you, Hugo\u2019s
+    three thugs are upon Dubos, pinning him to the floor. They do not make any effort
+    to be delicate, dragging him to the back room, presumably to chain him to the
+    large stone.\r\n\u201CWorry not, even with his alchemical tricks, there\u2019s
+    no way the bugger will escape us.\u201D Hugo, who is sitting back with his feet
+    propped up next to a mannequin says.\r\n\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: fd631705b2469f542a5ff3ad60d1a213, type: 2}

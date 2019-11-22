@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Monkey Encounter 6.2.2
+  m_EditorClassIdentifier: 
+  storyText: "\x1CNone that can deal with it as swiftly as some enchantment could.
+    The King favors efficiency, but would rather not have too many alchemists about
+    the palace all the time. This wouldn\x19t be the first time he\x19s sent for someone
+    from outside the royal circle.\x1D you reply, confident that you\x19ve got the
+    situation under control.\n\n\u201CI see. Yes. I was just thinking that it is awfully
+    strange, since it is ever so rare for any outsider to be allowed into the palace,
+    particularly common folk such as myself.\u201D\r\n\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: 58c6b56164545b640a8d42cb83df1c83, type: 2}

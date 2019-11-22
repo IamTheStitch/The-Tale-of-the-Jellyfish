@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Monkey Encounter 6.2.1
+  m_EditorClassIdentifier: 
+  storyText: "The two of your push your way through the crowded market square. You
+    have to struggle to keep up with Dubos for a time, as he is far more used to worming
+    through the mass of humanity that gathers there every day. Once you\x19re through
+    and onto a less crowded street, you walk side by side. A few minutes pass, and
+    Dubos starts to engage you in conversation.\r\n\u201CI never imagined that I would
+    be summoned to the palace for my work, especially for a matter as simple as a
+    rodents\u2019 nest. Does the King not have many people on staff for that sort
+    of thing?\u201D he asks.\r\r\n\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: 218f2b385852bed4f9192d3d8fc0cf89, type: 2}

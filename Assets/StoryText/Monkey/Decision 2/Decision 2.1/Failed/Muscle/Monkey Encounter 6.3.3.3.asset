@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Monkey Encounter 6.3.3.3
+  m_EditorClassIdentifier: 
+  storyText: "You throw caution to the wind and lunge at Dubos, trying to get to him
+    before he can throw the strange potion at you. He sidesteps, and you very nearly
+    lose your footing, but manage to recover. You whirl around to face the alchemist
+    again, and make another drastic leap in an attempt to bring him down.\r\n> [Failed
+    Muscle Roll] Dubos is faster than you, and throws the vial at your feet. It explodes
+    into a golden fog that billows out to cover much of the floor around you. [To
+    SCENE B1.4.4]\r\n>[Successful Muscle Roll] You\u2019re light on your feet and
+    get to Dubos before he can so much as let go of the vial. [To SCENE B1.4.5]\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 1018bb6be809489419b923aa1248f146, type: 2}
+  - {fileID: 11400000, guid: 02b50ae56b1b9bb43b936dd2bbfd9043, type: 2}

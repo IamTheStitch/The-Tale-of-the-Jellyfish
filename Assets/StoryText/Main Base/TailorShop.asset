@@ -16,18 +16,12 @@ MonoBehaviour:
     the palace. A few candles dimly illuminate the dark wood walls and simple furniture.
     There are no windows. A small round table and two wood chairs have been placed
     haphazardly in the room. You are left alone to wait for some time. As you watch
-    the candles melt away, you wonder what exactly the King has in store for you.\r\n\nYou\u2019re
+    the candles melt away, you wonder what exactly the King has in store for you.\r\nYou\u2019re
     beginning to nod off when the door to the room opens and you are joined by a woman
     that you recognize as the head of the King\u2019s spy network. After closing the
     door behind her, she sits down across the table from you, locking eyes with you
     and saying nothing. The candlelight casts eerie shadows on her face, and her dark
-    clothing makes her seem almost incorporeal in the low light.\r\n\n\u201CRight
-    then,\u201D she says, \u201CYou\u2019ve landed yourself in quite the rut.\u201D\r\nYou
-    nod in agreement.\r\n\n\u201CI\u2019ve pulled everything together to make this
-    as easy as possible for you. King was wise to pick you for the job, everyone in
-    my employ are cutthroats and thugs, and they\u2019re watched constantly. I spend
-    half my time trying to keep snoops from the other kingdoms off my arse.\u201D
-    she grins wryly at this. You don\u2019t find it as amusing.\r\n\n(Press Enter
+    clothing makes her seem almost incorporeal in the low light.\r\n\n(Press Enter
     to Continue)"
   nextStates:
-  - {fileID: 11400000, guid: 2c6afd83bf30b3c419d1b4150c2bc7b2, type: 2}
+  - {fileID: 11400000, guid: 97e43c44d0c37764aae1414bed1dc118, type: 2}

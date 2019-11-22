@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Monkey Encounter 6.2.3
+  m_EditorClassIdentifier: 
+  storyText: "Not wanting him to question your motives too much, you try to convince
+    Dubos of his importance:\r\n\r\n(Roll the Dice to see what possible responses
+    you get, this uses intellect)"
+  nextStates:
+  - {fileID: 11400000, guid: ed543697ad31a13498a2741b9ea6f23c, type: 2}
+  - {fileID: 11400000, guid: 70fe0770a1bc2734090b0a09d8555506, type: 2}

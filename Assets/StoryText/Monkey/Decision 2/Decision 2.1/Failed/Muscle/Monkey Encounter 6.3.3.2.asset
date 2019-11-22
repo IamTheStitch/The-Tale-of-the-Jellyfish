@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Monkey Encounter 6.3.3.2
+  m_EditorClassIdentifier: 
+  storyText: "You throw caution to the wind and lunge at Dubos, trying to get to him
+    before he can throw the strange potion at you. He sidesteps, and you very nearly
+    lose your footing, but manage to recover. You whirl around to face the alchemist
+    again, and make another drastic leap in an attempt to bring him down.\r\n\n(Roll
+    Dice to show a possible Outcome(s), this will use Muscle)\n"
+  nextStates:
+  - {fileID: 11400000, guid: 1018bb6be809489419b923aa1248f146, type: 2}
+  - {fileID: 11400000, guid: f02bb3393fee8db4ca50012c4034f987, type: 2}

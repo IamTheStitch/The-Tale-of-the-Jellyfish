@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Monkey Encounter 3
+  m_EditorClassIdentifier: 
+  storyText: "The calm atmosphere inside the shop is jarring compared to where you
+    came from. Much of the shop space is taken up by countertops lined with all kinds
+    of alchemical equipment. Different liquids bubble in glass bowls and bottles,
+    and a stove sits alight in one corner. On the back wall is a large shelf that
+    has numerous preserved animal parts in jars. A man is stooped over a table covered
+    with papers in the center of the space, and when he looks up at the door as you
+    walk in you can tell he\u2019s the one you\u2019re looking for. On his forehead
+    is the mark of the monkey.\r\n\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: 69449072e42e5bf45a921f89df8b4140, type: 2}

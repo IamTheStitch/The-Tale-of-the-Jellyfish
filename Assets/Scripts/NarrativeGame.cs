@@ -31,15 +31,19 @@ public class NarrativeGame : MonoBehaviour
     public bool usingMuscle;
     public bool usingCharm;
     public bool usingIntellect;
+    public bool speakingMonkey;
+    public bool speakingDog;
+    public bool speakingPheasant;
 
     [Header("Stats")]
     public int muscle;
     public int charm;
     public int intellect;
-    private int agreeable;
-    private int bold;
 
     private int decisions;
+    public int monkeyDecisions = 0;
+    private int dogDecisions = 0;
+    private int pheasantDecisions = 0;
 
     [Header("Characters")]
     public bool monkey;
@@ -62,6 +66,8 @@ public class NarrativeGame : MonoBehaviour
     public GameObject dice;
     public int diceRoll;
     public TextMeshProUGUI diceAmount;
+    public bool pressed;
+
     State story;
 
     void Start()
@@ -83,9 +89,17 @@ public class NarrativeGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ManageState();
+        if(!speakingDog && !speakingMonkey && !speakingPheasant)
+            ManageState();
+        if (speakingMonkey)
+            MonkeyEncounter();
         CheckForActiveCharacters();
         UpdateStats();
+    }
+
+    void LateUpdate()
+    {
+        pressed = false;
     }
 
     private void ManageState()
@@ -148,12 +162,23 @@ public class NarrativeGame : MonoBehaviour
                             }
                             break;
                         case (2):
-                            if (index == 0)
-                                agreeable++;
-                            else if (index == 1)
-                                bold++;
+                            decisions++;
                             break;
                         case (3):
+                            decisions++;
+                            if (index == 0)
+                            {
+                                monkeyDecisions++;
+                                speakingMonkey = true;
+                            }
+                            else if (index == 1)
+                            {
+                                speakingDog = true;
+                            }
+                            else if (index == 2)
+                            {
+                                speakingPheasant = true;
+                            }
                             break;
                         case (4):
                             break;
@@ -220,29 +245,10 @@ public class NarrativeGame : MonoBehaviour
     }
     public void RollDice()
     {
-        if(!usingCharm || !usingIntellect || !usingMuscle)
-            diceRoll = (int)Random.Range(1.0f, 7.0f);
-        if (usingCharm)
-        {
-            dice.gameObject.SetActive(true);
-            diceAmount.gameObject.SetActive(true);
-            diceRoll = (int)Random.Range(1.0f, 7.0f + charm);
-        }
-            
-        else if (usingIntellect)
-        {
-            dice.gameObject.SetActive(true);
-            diceAmount.gameObject.SetActive(true);
-            diceRoll = (int)Random.Range(1.0f, 7.0f) + intellect;
-        }
-            
-        else if (silverGauntlet)
-        {
-            dice.gameObject.SetActive(true);
-            diceAmount.gameObject.SetActive(true);
-            diceRoll = (int)Random.Range(1.0f, 7.0f) + muscle;
-        }           
-        //implement DiceRollChangning Sprites
+        if (Input.GetKeyDown(KeyCode.Return))
+            return;
+        pressed = true;
+        diceRoll = (int)Random.Range(1.0f, 7.0f);
         switch(diceRoll)
         {
             case (1):
@@ -268,7 +274,63 @@ public class NarrativeGame : MonoBehaviour
     }
     private void MonkeyEncounter()
     {
+        State[] nextStates = story.GetNextStates();
 
+        if (nextStates.Length < 2 && Input.GetKeyDown(KeyCode.Return))
+        {
+            story = nextStates[0];
+        }
+        else
+        {
+            for (int index = 0; index < nextStates.Length; index++)
+            {
+                if(pressed && nextStates.Length == 2)
+                {
+                    pressed = false;
+                    if ((diceRoll) < 4)
+                        story = nextStates[index];
+
+                    else
+                        story = nextStates[index++];
+                }
+                else if(Input.GetKeyDown(KeyCode.Alpha1 + index))
+                {
+                    switch (monkeyDecisions)
+                    {
+                        case (0):
+                            usingCharm = true;
+                            monkeyDecisions++;
+                            break;
+                        case (1):
+                            monkeyDecisions++;
+                            usingCharm = false;
+                            break;
+                        case (2):
+                            usingIntellect = true;
+                            monkeyDecisions++;
+                            break;
+                        case (3):
+                            usingIntellect = false;
+                            usingMuscle = true;
+                            monkeyDecisions++;
+                            break;
+                        case (4):
+                            monkeyDecisions++;
+                            break;
+                        case (5):
+                            monkeyDecisions++;
+                            break;
+                        case (6):
+                            monkey = true;
+                            speakingMonkey = false;
+                            break;
+                    }
+                    pressed = false;
+                    story = nextStates[index];
+                }
+            }
+            storyText.text = story.GetStateStory();
+        }
     }
     private void DogEncounter()
     {

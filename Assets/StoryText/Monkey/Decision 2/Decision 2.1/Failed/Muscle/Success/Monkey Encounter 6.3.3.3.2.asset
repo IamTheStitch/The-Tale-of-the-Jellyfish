@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Monkey Encounter 6.3.3.3.2
+  m_EditorClassIdentifier: 
+  storyText: "Breathing heavily, you pick Dubos\u2019s limp body up and haul him out
+    of the store.\r\n\u201CStep aside people, there\u2019s been an alchemical accident!
+    Out of the way, move it! This man needs help!\u201D you yell at the mass of people
+    in the market square. There are numerous cries of concern, but no one questions
+    your words.\r\nYou keep this charade up all the way back to the tailor shop. By
+    the time you make it inside, your legs are burning so much you can hardly move
+    them. You dump Dubos onto the floor on the shop and collapse into a large shair
+    lined with red velvet.\r\n\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: 88ac09d3208f24842b37df9a46071f84, type: 2}

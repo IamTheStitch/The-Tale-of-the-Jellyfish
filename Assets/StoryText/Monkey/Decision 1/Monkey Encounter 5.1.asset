@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Monkey Encounter 5.1
+  m_EditorClassIdentifier: 
+  storyText: "\x1C\"Oh. Yes. Well, to tell the truth, I did come here on business
+    from the palace. You see, it\x19s a royal matter that I was sent here to inquire
+    about.\"\x1D you say, trying to play off your nervousness about being discovered.\r\n\u201CYou
+    don\u2019t say? What exactly could the royal family want with me, a humble servant
+    of the people?\u201D Dubos responds, narrowing his eyes.\r\n\n<i>Roll the Dice
+    to unlock a possible outcome, you will be using Charm for this </i>"
+  nextStates:
+  - {fileID: 11400000, guid: f91ae8bbb2aae3e46ac17fe0530f9f9e, type: 2}
+  - {fileID: 11400000, guid: d343b0da8c5e7c84a9fbbeb23b046984, type: 2}

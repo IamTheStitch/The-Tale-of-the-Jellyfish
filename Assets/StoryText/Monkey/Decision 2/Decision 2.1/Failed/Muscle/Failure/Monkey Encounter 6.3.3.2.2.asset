@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Monkey Encounter 6.3.3.2.2
+  m_EditorClassIdentifier: 
+  storyText: "\tIgnoring the strange mist that now cloaks the floor around you, you
+    move to try to grab Dubos by the wrist as he darts towards the back door. After
+    taking one step, however, you lose your balance, thudding to the floor. You\u2019re
+    left to watch as Dubos escapes out the back door. You roll onto your back to look
+    down at your feet, and are horrified at the effects the strange golden mist had
+    on them. Your feet, shoes and all, have been transformed into loaves of bread.
+    You scramble away from the horrible mist before it can reach any other parts of
+    your body.\r\n\tYour panic subsides after about a minute, when the effects starts
+    to reverse itself, but you\u2019re unable to stand until then. Once you\u2019ve
+    fully recovered, you stagger out of the shop, frustrated and still in a bit of
+    shock from the spell being cast on you.\r\n\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: 9ceba20b32dcce3478ae822584f4f86f, type: 2}

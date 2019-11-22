@@ -12,21 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
   m_Name: TailorShop 1
   m_EditorClassIdentifier: 
-  storyText: "\u201CBut you, you\u2019re an unknown. Nobody\u2019ll recognize you.
-    So, then, the setup is this: I\u2019ve arranged to use a small tailor shop not
-    far from the palace. My boys are gonna make some, ah, adjustments to the space
-    to better suit our needs. Do whatever you have to to these saps to get them to
-    return with you to that shop, and we\u2019ll take care of the rest. When the King
-    says he wants them to come willingly, note that he doesn\u2019t necessarily mean
-    that they\u2019ll know why they\u2019re coming willingly. Simple enough for you?\u201D\r\n\nYou
-    nod again, and she cracks another smile. Once again you don\u2019t know what\u2019s
-    so funny, but she doesn\u2019t bother explaining anything else to you.\r\n\nAs
-    quickly as you arrived, you are again pulled from the little wooden side room.
-    You\u2019re taken to the stables and put hurriedly in a carriage that looks an
-    awful lot like it belongs to some kind of merchant. You find inside a change of
-    clothes, those of a commoner. The carriage pulls out from the palace, and you
-    change into your new garments during the ride. When at last you are deposited
-    at the tailor shop, an old man with pale and pockmarked skin greets you.\r\n\n(Press
-    Enter to Continue)"
+  storyText: "Right then,\x1D she says, \x1CYou\x19ve landed yourself in quite the
+    rut.\x1D\r\nYou nod in agreement.\r\n\n\x1CI\x19ve pulled everything together
+    to make this as easy as possible for you. King was wise to pick you for the job,
+    everyone in my employ are cutthroats and thugs, and they\x19re watched constantly.
+    I spend half my time trying to keep snoops from the other kingdoms off my arse.\x1D
+    she grins wryly at this. You don\x19t find it as amusing.\r\n\n(Press Enter to
+    Continue)"
   nextStates:
-  - {fileID: 11400000, guid: 1ac2e2280289336458f6a08f850904d6, type: 2}
+  - {fileID: 11400000, guid: 2c6afd83bf30b3c419d1b4150c2bc7b2, type: 2}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Monkey Encounter 1
+  m_EditorClassIdentifier: 
+  storyText: "You make your way on foot to the city\u2019s central market district.
+    Though it\u2019s been some time since you walked the streets, you have no trouble
+    at all getting there. The market is the beating heart of the city, and if one
+    walks around long enough they\u2019re bound to end up there. Most everywhere in
+    the city is busy these days, but the market is something else entirely. As you
+    close in on it, the crowd grows more and more dense. By the time you\u2019re inside
+    the market square, you can barely squeeze through the immense crowd gathered there.\r\n\n(Press
+    Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: d7012358671fbbc4aa00ca91e87790bd, type: 2}

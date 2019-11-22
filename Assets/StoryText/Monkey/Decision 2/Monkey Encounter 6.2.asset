@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Monkey Encounter 6.2
+  m_EditorClassIdentifier: 
+  storyText: "Dubos cocks an eyebrow.\r\n\u201CI\u2019ll have you know that I won\u2019t
+    change my prices for a royal matter. If anything, I\u2019ll charge more, since
+    it seems you\u2019ll require me to leave my shop unattended.\u201D\r\n\u201CBut
+    of course,\u201D you say, having fully regained your cool, \u201CYou\u2019ll be
+    well compensated for your services.\u201D\r\nDubos nods, and sets about packing
+    some of his equipment and ingredients into a stachel. You have no idea how he
+    knows where anything is, understanding of alchemy was never your strong suit.
+    Once he\u2019s fully packed, Dubos follows you out the front door of the shop,
+    locking it behind him.\r\n\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: c06ec913c057001428d65cd837e6af4d, type: 2}

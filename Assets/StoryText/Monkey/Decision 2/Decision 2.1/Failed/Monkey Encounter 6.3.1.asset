@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Monkey Encounter 6.3.1
+  m_EditorClassIdentifier: 
+  storyText: "The alchemist considers this silently for a moment, scratching the side
+    of his head.\r\n\u201CIf it\u2019s something so special, then there\u2019s some
+    extra things I\u2019ll need to retrieve from my shop. I apologize.\u201D he says,
+    slowing his pace.\r\n\u201CWhat? No, I\u2019m sure we\u2019ll have everything
+    you need.\u201D you reply, not wanting to have to go all the way back.\r\n\u201CI\u2019m
+    afraid it\u2019s specialized equipment of my own design. If we\u2019re doing something
+    so intensive I\u2019m afraid I must have it.\u201D\r\nYou sigh and rub your temples,\r\n\u201CFine.
+    Let\u2019s go.\u201D\r\n\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: b65be0cf38a11e144bfae926a4700c7d, type: 2}

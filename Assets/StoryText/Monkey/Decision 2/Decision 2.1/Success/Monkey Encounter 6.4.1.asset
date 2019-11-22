@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Monkey Encounter 6.4.1
+  m_EditorClassIdentifier: 
+  storyText: "After the words leave your mouth, you hold your breath, searching Dubos\u2019s
+    eyes for some sign of whether or not he bought it. He nods in acknowledgement
+    and continues walking, and you breathe a quiet sigh of relief. The rest of the
+    walk to the tailor shop is quiet, at least between the two of you. You\u2019re
+    so focused on your task that the busy city streets around you seem to fade away.\r\nDubos
+    looks confused when you reach the tailor shop.\r\n\u201CI thought you said this
+    was a royal matter.\u201D he says.\r\n\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: b00d0ac0c391eb643aa9454805483371, type: 2}

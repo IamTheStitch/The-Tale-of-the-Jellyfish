@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Monkey Encounter 4
+  m_EditorClassIdentifier: 
+  storyText: "\u201CGood day to you, sir.\u201D says the man called Hector Dubos,
+    if the information given to you by Hugo is to be believed. He\u2019s short, and
+    has a tangled rats\u2019 nest of chestnut hair atop his head. His clothes are
+    plain, and he wears a pair of thick spectacles. His face is framed by thick sideburns,
+    slightly darker in color than his hair.\r\n\u201CIn what way may I assist you?\u201D
+    he finishes the customary shopkeeper greeting.\r\n\u201CI\u2019m interested in
+    making use of your, ah, services.\u201D you reply.\r\n\u201CSomething important?\u201D
+    Dubos asks. Your heartbeat quickens as you think he may already be onto you. He
+    seems to see the look of concern on your face, and adds:\r\n\u201CYou\u2019re
+    awfully clean compared to my usual clientele. Those clothes look brand new. Don\u2019t
+    see that much these days, at least not in this part of the city.\u201D\r\n\n(Press
+    Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: 9043b52d10d36d3429f89101abeaca46, type: 2}

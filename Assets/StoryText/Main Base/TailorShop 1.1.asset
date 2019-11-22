@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: TailorShop 1.1
+  m_EditorClassIdentifier: 
+  storyText: "\u201CBut you, you\u2019re an unknown. Nobody\u2019ll recognize you.
+    So, then, the setup is this: I\u2019ve arranged to use a small tailor shop not
+    far from the palace. My boys are gonna make some, ah, adjustments to the space
+    to better suit our needs. Do whatever you have to to these saps to get them to
+    return with you to that shop, and we\u2019ll take care of the rest. When the King
+    says he wants them to come willingly, note that he doesn\u2019t necessarily mean
+    that they\u2019ll know why they\u2019re coming willingly. Simple enough for you?\u201D\r\nYou
+    nod again, and she cracks another smile. Once again you don\u2019t know what\u2019s
+    so funny, but she doesn\u2019t bother explaining anything else to you.\r\n\n(Press
+    Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: 436b68c512cae324ca692b462ac80c2a, type: 2}
