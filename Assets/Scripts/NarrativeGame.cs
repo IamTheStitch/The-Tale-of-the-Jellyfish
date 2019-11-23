@@ -270,6 +270,13 @@ public class NarrativeGame : MonoBehaviour
                 dice.gameObject.GetComponent<Image>().sprite = dice6;
                 break;
         }
+        if (usingCharm)
+            diceRoll += charm;
+        else if (usingIntellect)
+            diceRoll += intellect;
+        else if (usingMuscle)
+            diceRoll += muscle;
+
         diceAmount.text = diceRoll.ToString();
     }
     private void MonkeyEncounter()
@@ -284,47 +291,33 @@ public class NarrativeGame : MonoBehaviour
         {
             for (int index = 0; index < nextStates.Length; index++)
             {
+                if (monkeyDecisions == 2)
+                    usingCharm = true;
+                else if (monkeyDecisions == 3)
+                {
+                    usingCharm = false;
+                    usingIntellect = true;
+                }
+                else if(monkeyDecisions == 4)
+                {
+                    usingCharm = false;
+                    usingIntellect = false;
+                    usingMuscle = true;
+                }
+                else if (monkeyDecisions >= 6 || monkeyDecisions == 4)
+                    monkey = true;
                 if(pressed && nextStates.Length == 2)
                 {
                     pressed = false;
-                    if ((diceRoll) < 4)
-                        story = nextStates[index];
-
-                    else
-                        story = nextStates[index++];
+                    if (diceRoll < 4)
+                        index = 0;
+                    else if (diceRoll >= 4)
+                        index = 1;
+                    story = nextStates[index];
                 }
                 else if(Input.GetKeyDown(KeyCode.Alpha1 + index))
                 {
-                    switch (monkeyDecisions)
-                    {
-                        case (0):
-                            usingCharm = true;
-                            monkeyDecisions++;
-                            break;
-                        case (1):
-                            monkeyDecisions++;
-                            usingCharm = false;
-                            break;
-                        case (2):
-                            usingIntellect = true;
-                            monkeyDecisions++;
-                            break;
-                        case (3):
-                            usingIntellect = false;
-                            usingMuscle = true;
-                            monkeyDecisions++;
-                            break;
-                        case (4):
-                            monkeyDecisions++;
-                            break;
-                        case (5):
-                            monkeyDecisions++;
-                            break;
-                        case (6):
-                            monkey = true;
-                            speakingMonkey = false;
-                            break;
-                    }
+                    monkeyDecisions++;
                     pressed = false;
                     story = nextStates[index];
                 }
