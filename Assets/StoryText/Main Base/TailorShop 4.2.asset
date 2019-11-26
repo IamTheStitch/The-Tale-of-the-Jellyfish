@@ -12,12 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
   m_Name: TailorShop 4.2
   m_EditorClassIdentifier: 
-  storyText: "\tYou look at the paper with two names and locations on it. You read
-    it carefully, thinking about where to go next. \n<i>Serge Leroux. we grew up in
-    the same neighborhood. Maybe I may pay him a visit next. Or... </i> \n\nYou stuff
-    the paper in your pocket and walk out the front door, determined to get the task
-    done.\r\n\r\nYou head:\r\n\n>Downtown via steam-trolley, to the home of Serge
-    Leroux: your old friend. [To SCENE B2.1]\r\n>A few blocks over to the Millenium
-    Theatre, to find the dancer called Olivia Beaumont [To SCENE B3.1]\r\n"
+  storyText: "\tHugo hands you a slip of paper with three names and locations on it.
+    You read it carefully, letting out a sigh when you get to the last name on the
+    list. Serge Leroux. You know Serge Leroux, the two of you grew up in the same
+    neighborhood. You stuff the paper in your pocket and walk out the front door,
+    determined to get the task done.\r\n\r\nYou head:\r\n\n>To the market district,
+    to find the shopkeeper called Hector Dubos [To SCENE B1.1]\r\n>Downtown via steam-trolley,
+    to the home of Serge Leroux: your old friend. [To SCENE B2.1]\r\n>A few blocks
+    over to the Millenium Theatre, to find the dancer called Olivia Beaumont [To SCENE
+    B3.1]\r\n"
   nextStates:
-  - {fileID: 11400000, guid: 84a74d3c4d03edf45adba0ce9bad4496, type: 2}
+  - {fileID: 11400000, guid: 809fac5b5c32a984d86c9de28d017ccc, type: 2}

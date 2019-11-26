@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Pheasant Encounter 6.2.5
+  m_EditorClassIdentifier: 
+  storyText: "\tYou get the impression that they\u2019re out to see you embarrass
+    yourself. You ready yourself, and the dance-off begins!\r\n\r\n>You start strong,
+    but Beaumont quickly outpaces you, her years of training completely eclipsing
+    your few party experiences. [To SCENE B3.4.1]\r\n> [Muscle Roll] Your movements
+    are not nearly as graceful or well-controlled, but you manage to match Beaumont\u2019s
+    pace. By the end, you\u2019ve broken quite the sweat and are left panting, but
+    you succeeded in the challenge. [To SCENE B3.4.2]\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 2877967c394f25a41b0b73ab802549e6, type: 2}
+  - {fileID: 11400000, guid: d6d97339e7b118449851e643bfcf498e, type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Pheasant Encounter 6.1.6
+  m_EditorClassIdentifier: 
+  storyText: "\t\u201COh. Who are you then? How did you get back here?\u201D\r\n\u201COne
+    of the stagehands let me come back. I\u2019m something of a fan.\u201D you reply,
+    trying to get on her good side.\r\nYou Continue:\r\n    > \u201CWould you be interested
+    in doing another small performance later today? I\u2019d be very appreciative,
+    and would pay well.\u201D [To SCENE B3.3.1]\r\n    >[Int. Roll] \u201CAnd I work
+    for another fan of yours, the King himself. He\u2019s interested in having you
+    perform at the palace, but wants to meet with you first. It would be very good
+    for your career.\u201D [To SCENE B3.3.2]\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 606db815c5735ee4cb8ee0b7ffcc2c74, type: 2}
+  - {fileID: 11400000, guid: d9695c0ad6e4c8c478eab40d04685506, type: 2}

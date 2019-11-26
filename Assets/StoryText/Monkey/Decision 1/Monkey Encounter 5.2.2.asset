@@ -19,11 +19,10 @@ MonoBehaviour:
     of the people?\u201D Dubos responds, narrowing his eyes.\r\n<b>You reply:\r</b>\n>
     \x1CWhy, your talents are known throughout the city! Truly, you\x19re a master
     of your craft. The King himself has taken notice of you, and wants to employ you
-    as his personal court alchemist!\x1D [To SCENE B1.2]\r\n > <i>[Successful Charm
-    Roll]</i> \x1CNothing terribly urgent, at least not for the royal family. In truth,
-    it\x19s a simple matter of performing some kind of ritual to rid the palace of
-    a rodent infestation. The court alchemist couldn\x19t be bothered to tend to it.\x1D
-    [To SCENE B1.3]\r"
+    as his personal court alchemist!\x1D \n > <i>[Successful Charm Roll]</i> \x1CNothing
+    terribly urgent, at least not for the royal family. In truth, it\x19s a simple
+    matter of performing some kind of ritual to rid the palace of a rodent infestation.
+    The court alchemist couldn\x19t be bothered to tend to it.\x1D "
   nextStates:
   - {fileID: 11400000, guid: 909edd07f19974b4d852e1f1890f2ee6, type: 2}
   - {fileID: 11400000, guid: 2c9e03e740fdc3a44a52fc7a8be9ebb3, type: 2}

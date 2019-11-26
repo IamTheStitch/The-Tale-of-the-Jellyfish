@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Pheasant Encounter 6.1.2
+  m_EditorClassIdentifier: 
+  storyText: "\u201COi! What do you think you\u2019re doing!\u201D one of the stagehands
+    calls from above you. He\u2019s perched on a ladder, screwing in some kind of
+    glass sphere to some copper piping that\u2019s suspended over the stage. He stops
+    in the middle of his task and scrambles down the ladder. It wobbles, and you think
+    for a moment that it may fall, but the stagehand makes it to the bottom without
+    incident.\r\n\u201CWell? What\u2019re you doing up here?\u201D he demands again,
+    jamming a grubby finger into your chest.\r\nYou reply:\r\n    >\u201DI was wondering
+    if you would let me backstage to see Miss Beaumont. I\u2019d love to meet her!
+    [To SCENEB 3.2.2]\r\n    >[Successful Charm Roll] \u201CWhy, I\u2019m quite interested
+    in the field of stage and set management. I\u2019d be delighted if you could tell
+    me about it.\u201D [To SCENE B3.2.4]\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 8340c06eaaedbfd4c8858e52cdb8a969, type: 2}
+  - {fileID: 11400000, guid: e295c4219e3788b42a567e0f4ea162ac, type: 2}

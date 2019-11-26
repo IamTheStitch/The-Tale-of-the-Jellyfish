@@ -15,10 +15,10 @@ MonoBehaviour:
   storyText: "Not wanting him to question your motives too much, you try to convince
     Dubos of his importance:\r\n\r\n>\x1DI\x19m not supposed to tell you this, but
     it isn\x19t actually rats that we need your help with. It\x19s something far more
-    urgent. You\x19re needed to help with a very special spell.\x1D [To SCENE B1.3.1]\r\n>[Successful
+    urgent. You\x19re needed to help with a very special spell.\x1D \n>[Successful
     Intellect Roll] \x1CThe King tries to maintain discretion in matters of that kind,
     but in truth there is not as much disdain for the common people amongst royalty
-    as many believe there is.\x1D [To SCENE 1.3.2]\r"
+    as many believe there is.\x1D "
   nextStates:
   - {fileID: 11400000, guid: 7b3c64e00dfd958448b5aeda53ad31a8, type: 2}
   - {fileID: 11400000, guid: 105125b2be88138498b0c4ebb6dffb85, type: 2}

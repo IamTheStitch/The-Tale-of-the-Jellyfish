@@ -15,6 +15,6 @@ MonoBehaviour:
   storyText: "Not wanting him to question your motives too much, you try to convince
     Dubos of his importance:\r\n\r\n>\x1DI\x19m not supposed to tell you this, but
     it isn\x19t actually rats that we need your help with. It\x19s something far more
-    urgent. You\x19re needed to help with a very special spell.\x1D [To SCENE B1.3.1]\r"
+    urgent. You\x19re needed to help with a very special spell.\x1D "
   nextStates:
   - {fileID: 11400000, guid: 7b3c64e00dfd958448b5aeda53ad31a8, type: 2}

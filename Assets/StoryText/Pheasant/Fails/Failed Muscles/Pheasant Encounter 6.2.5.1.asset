@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Pheasant Encounter 6.2.5.1
+  m_EditorClassIdentifier: 
+  storyText: "\tAfter a few minutes of your floundering, Beaumont motions for the
+    musicians to stop playing. You hear them snickering as you bend over, out of breath
+    from the effort.\r\n\t\u201CTell whoever you work for to send for me with someone
+    who really knows dance.\u201D she says, strutting off the stage. You don\u2019t
+    even have the breath to reply, and are left wheezing and nearly hobbling through
+    the lobby back out onto the street.\r\n\n\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: 272e8217f1ec00b46814e6bf5fa74085, type: 2}

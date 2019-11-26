@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Pheasant Encounter 6.1.5
+  m_EditorClassIdentifier: 
+  storyText: "Olivia Beaumont is glad in a flowing gold dress, her hair pinned back,
+    only halfway styled for the performance. The mark of the pheasant on her face
+    is barely visible beneath the heavy makeup she\u2019s wearing. She looks more
+    concerned than anything at your unexpected arrival.\r\n\n\u201CYes? What is it?
+    Is the show supposed to be starting? Oh, god, I lost track of time again. I\u2019m
+    so sorry.\u201D she starts panicking, scrambling around the room trying to put
+    herself together as fast as possible.\r\n\n\u201CNo, no. You have plenty of time,
+    I\u2019m not with the theatre.\u201D you say in an attempt to calm her down. She
+    slows her frantic pace a little.\r\n\n(Press Enter to Continue)\n"
+  nextStates:
+  - {fileID: 11400000, guid: a7890b37a3a2b8549ae20a06e87e74dc, type: 2}

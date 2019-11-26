@@ -19,6 +19,6 @@ MonoBehaviour:
     of the people?\u201D Dubos responds, narrowing his eyes.\r\n<b>You reply:\r</b>\n
     \   > \x1CWhy, your talents are known throughout the city! Truly, you\x19re a
     master of your craft. The King himself has taken notice of you, and wants to employ
-    you as his personal court alchemist!\x1D [To SCENE B1.2]\r"
+    you as his personal court alchemist!\x1D \r"
   nextStates:
   - {fileID: 11400000, guid: 909edd07f19974b4d852e1f1890f2ee6, type: 2}

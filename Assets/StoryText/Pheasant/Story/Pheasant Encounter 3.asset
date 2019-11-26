@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Pheasant Encounter 3
+  m_EditorClassIdentifier: 
+  storyText: "\u201CThat\u2019s not a problem! Tickets are available right over there,\u201D
+    she motions to another worker behind a desk in one corner, \u201CMiss Beaumont\u2019s
+    performance will start in about forty minutes.\u201D\r\n    \u201CAlright, thank
+    you.\u201D you say. You head over to the ticker counter and buy one. The worker
+    there greets you just as cheerily as the door attendant, telling you the exorbitant
+    price of the ticket with a smile. Before you made it into the academy, you could\u2019ve
+    eaten for a week with the amount that you\u2019re now handing over without a second
+    thought.\r\n\n\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: 2ad61d814cb6e2d499b6ec9c069bb0ea, type: 2}

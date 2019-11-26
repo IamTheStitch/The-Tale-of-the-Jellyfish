@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Pheasant Encounter 6.1
+  m_EditorClassIdentifier: 
+  storyText: "Not wanting to waste any time, you get up from your seat and walk down
+    to the stage. In contrast to the people you spoke to in the lobby, these workers
+    don\u2019t seem to have any interest in talking to you, let alone helping you
+    with anything. You hesitate for a moment, but determined to get what you came
+    here for, you haul yourself up onto the stage.\r\n\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: 2f107139c0b39244bb7335a502d7c52a, type: 2}

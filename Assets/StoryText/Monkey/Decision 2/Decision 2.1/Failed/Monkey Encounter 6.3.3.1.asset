@@ -17,4 +17,4 @@ MonoBehaviour:
     that blankets the market square. You stalk back to the tailor shop, cursing your
     bad luck all the way.\r\n\n<i>Back to the TailorShop</i>"
   nextStates:
-  - {fileID: 11400000, guid: fd631705b2469f542a5ff3ad60d1a213, type: 2}
+  - {fileID: 11400000, guid: a943cbd4f6d107346b5a583799291e1c, type: 2}

@@ -21,8 +21,7 @@ MonoBehaviour:
     ask again,\u201D he says, cautiously stepping out from behind the table and towards
     a backdoor, tucked between two shelves along the back wall where you couldn\u2019t
     see it at first.\r\n\n>Back up to the front door and get out of there before you
-    find out the hard way what he has in that bottle. [To SCENE B1.4.1]\r\n>Try to
-    take him down! [To SCENE B1.4.3]\r"
+    find out the hard way what he has in that bottle.\n>Try to take him down! \r"
   nextStates:
   - {fileID: 11400000, guid: 9ceba20b32dcce3478ae822584f4f86f, type: 2}
   - {fileID: 11400000, guid: 91b6778e92143b0428178e5214ce0095, type: 2}

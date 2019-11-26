@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Pheasant Encounter 6.2.3
+  m_EditorClassIdentifier: 
+  storyText: "\u201CYes? Did you need something?\u201D she asks.\r\n\n\u201CThat was
+    quite an amazing show. I represent someone who would be very interested in your
+    unique talents.\u201D you half-lie to her, sure that she\u2019ll see right through
+    it.\r\n\n\u201CIs that so? I\u2019ll have you know I won\u2019t perform for just
+    anyone. I need to know that you have a real appreciation for the art.\u201D\r\n\nBeaumont
+    starts to move toward you, exuding confidence.\r\n\n\n\u201CI assure you, we have
+    plenty of apprecia-\u201D\r\n\nShe holds up a hand, silencing you.\r\n\u201CDo
+    you know the gavotte?\u201D\r\n\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: 82c18e8e3f3197246a0b8c6c16366d29, type: 2}

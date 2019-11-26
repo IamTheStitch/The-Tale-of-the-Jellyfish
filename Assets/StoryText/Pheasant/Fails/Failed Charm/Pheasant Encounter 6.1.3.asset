@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Pheasant Encounter 6.1.3
+  m_EditorClassIdentifier: 
+  storyText: "\"Well, suppose that's about everything, least all that's got to do
+    with today's show.\" the stagehand concludes the tour, beaming up at you.\r\n\n\"Thank
+    you for showing me everything, very much. If it's not any trouble, could I stay
+    and look around the back for a while? I promise I won't touch anything.\" you
+    ask, now that he's in better spirits.\r\n\n\u201CWell, I guess it couldn\u2019t
+    hurt,\u201D he replies, \u201CI\u2019d best get back to work before we run out
+    of time before the show. Just be careful.\u201D\r\n\n\n(Press Enter to Continue)\n"
+  nextStates:
+  - {fileID: 11400000, guid: b793f676de114864a9c5decfa8f10bc5, type: 2}

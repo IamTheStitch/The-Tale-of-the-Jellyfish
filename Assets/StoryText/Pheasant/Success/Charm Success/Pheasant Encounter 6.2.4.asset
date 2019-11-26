@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Pheasant Encounter 6.2.4
+  m_EditorClassIdentifier: 
+  storyText: "\tYou do know the gavotte, most everyone in the kingdom does. In your
+    old neighborhood there would be parties where everyone would do the dance together.\r\n\n\u201CWell,
+    yes, but I don\u2019t see-\u201D\r\n\n\u201CYou keep up with me in a gavotte,\u201D
+    she says haughtily, \u201CAnd I will consider your offer.\u201D\r\n\n\tIt\u2019s
+    an unconventional deal, but what other choice do you have? The two of you walk
+    out onto the now-empty stage. Beaumont sends the stagehands packing, telling them
+    to take a break for a few minutes. She asks the pit musicians to play the accompanying
+    music, and they heartily agree. \r\n\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: 549f8a3defca1444fa621a054921f388, type: 2}

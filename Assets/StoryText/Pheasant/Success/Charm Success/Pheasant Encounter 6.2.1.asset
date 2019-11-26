@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Pheasant Encounter 6.2.1
+  m_EditorClassIdentifier: 
+  storyText: "The audience gasps when the lights dim, and it is only then that you
+    notice that almost all the lights in the theatre are steam powered bulbs.\r\n\u201C<i>At
+    this rate, </i>\u201D you think, \u201C<i>Magic will be completely obsolete when
+    compared to steam power.</i>\u201D\r\n\tOlivia Beaumont takes the stage and begins
+    her performance. She\u2019s a dancer, as it turns out, and the show is entirely
+    hers. She dances alone, with only the quartet of musicians in the pit for accompaniment.
+    She\u2019s clad in a flowing dress colored various shades of gold, which billows
+    around her elegantly as she moves. Her dark hair is tied back, so as not to get
+    in her way. Her movements are incredibly graceful, and you find yourself completely
+    transfixed as she sails across the stage.\r\n\n\n(Press Enter to Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: cb8c1751b1354e1498f29d37dc228f4b, type: 2}

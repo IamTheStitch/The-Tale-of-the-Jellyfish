@@ -17,7 +17,7 @@ MonoBehaviour:
     misunderstand, all I meant was-\u201D\r\n\u201CI don\u2019t believe I\u2019ve
     misunderstood anything. The door is right behind you, I suggest you use it.\u201D\r\nWith
     that, Dubos goes back to whatever he was working on before you came in.\r\n\n>Take
-    your leave. [To SCENE B1.4.1]\r\n>Continue hounding him. [To SCENE B1.4.2]"
+    your leave.\n>Continue hounding him."
   nextStates:
   - {fileID: 11400000, guid: 9ceba20b32dcce3478ae822584f4f86f, type: 2}
   - {fileID: 11400000, guid: 1886d52ff9808f84cbc02a8c16d7c6ca, type: 2}

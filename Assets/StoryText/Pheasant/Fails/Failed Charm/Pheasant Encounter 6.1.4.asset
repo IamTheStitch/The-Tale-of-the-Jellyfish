@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Pheasant Encounter 6.1.4
+  m_EditorClassIdentifier: 
+  storyText: "\tWith that, he goes back to setting things up and you\u2019re left
+    to your own devices. You make a beeline for backstage to see if you can find Beaumont.
+    Beyond the confines of the main stage room are somewhat cramped halls, lined with
+    doors. On some of them are emblazoned the names of some of the regular big performers,
+    given the privilege of having their own semi-permanent dressing rooms. There are
+    about five of these, and the rest are unmarked. The only way you\u2019re able
+    to find which one is Beaumont\u2019s is because she left her door cracked and
+    you can hear her moving around inside. You knock on the door, and the sound stops.
+    Moments later, the door swings the rest of the way open.\r\n\n\n(Press Enter to
+    Continue)\n"
+  nextStates:
+  - {fileID: 11400000, guid: 80076a20b40be2e469ff12c81acf3aa1, type: 2}

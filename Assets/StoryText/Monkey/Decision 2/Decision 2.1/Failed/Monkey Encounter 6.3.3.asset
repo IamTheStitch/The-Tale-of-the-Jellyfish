@@ -16,8 +16,8 @@ MonoBehaviour:
     of the room. Over his shoulder, you spy a back door tucked discreetly between
     two shelves. You\u2019re tensed, afraid of what the bottle clutched in the alchemist\u2019s
     hand might be capable of.\r\n\r\n>You back away, opening the door to leave without
-    ever taking your eyes off the swirling golden potion. [To SCENE 1.4.1]\r\n>You
-    throw caution to the wind, and try to take Dubos by force! [To SCENE B1.4.3]\r"
+    ever taking your eyes off the swirling golden potion. \n>You throw caution to
+    the wind, and try to take Dubos by force!"
   nextStates:
   - {fileID: 11400000, guid: 9ceba20b32dcce3478ae822584f4f86f, type: 2}
   - {fileID: 11400000, guid: 91b6778e92143b0428178e5214ce0095, type: 2}

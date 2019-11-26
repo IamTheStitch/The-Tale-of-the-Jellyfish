@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Pheasant Encounter 6.1.6.2.1
+  m_EditorClassIdentifier: 
+  storyText: "\u201CMy goodness. Well, of course I\u2019ll do it for the King! When
+    does he want to meet with me?\u201D\r\n\n    \u201CWhy, right away! We can leave
+    right now!\u201D you say, sure that she\u2019s fully on board.\r\n\n    \u201COh,
+    but I have my performance here right now. I can\u2019t leave.\u201D\r\n\n    \u201CThis
+    small time show is nothing compared to what you will gain from performing for
+    the King! Everyone in the kingdom will know your name.\u201D\r\n\n    \u201CWell,
+    when you put it that way\u2026\u201D Beaumont caves completely, getting up and
+    following you out, still wearing her flashy golden dress.\r\n\n(Press Enter To
+    Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: 3b49d3df8b10402488537d8c8c8781d7, type: 2}

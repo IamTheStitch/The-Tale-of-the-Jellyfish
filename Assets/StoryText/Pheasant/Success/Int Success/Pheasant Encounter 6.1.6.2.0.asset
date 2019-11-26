@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59643696434ad9047a4990f892893685, type: 3}
+  m_Name: Pheasant Encounter 6.1.6.2.0
+  m_EditorClassIdentifier: 
+  storyText: "Beaumont\u2019s eyes widen.\r\n\n    \u201CThe King? Interested in my
+    dancing? Are you sure?\u201D she asks in disbelief.\r\n\n    \u201CYes, it\u2019s
+    true. You see, the King likes to go out into the city on occasion to take in the
+    arts. He\u2019s grown bored of the high-brow fluff that they make available in
+    the palace, and wants to start supporting the common folk in their artistic endeavors.\u201D
+    you lie through your teeth, but she seems to buy it.\r\n\n(Press Enter To Continue)"
+  nextStates:
+  - {fileID: 11400000, guid: b5d5f3b66457167499e5207cdcc9e5f2, type: 2}
