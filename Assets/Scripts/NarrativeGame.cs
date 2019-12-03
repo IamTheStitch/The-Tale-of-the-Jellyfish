@@ -181,6 +181,19 @@ public class NarrativeGame : MonoBehaviour
                             }
                             break;
                         case (4):
+                            if (index == 0)
+                            {
+                                monkeyDecisions++;
+                                speakingMonkey = true;
+                            }
+                            else if (index == 1)
+                            {
+                                speakingDog = true;
+                            }
+                            else if (index == 2)
+                            {
+                                speakingPheasant = true;
+                            }
                             break;
                         case (5):
                             break;
@@ -305,7 +318,12 @@ public class NarrativeGame : MonoBehaviour
                     usingMuscle = true;
                 }
                 else if (monkeyDecisions >= 6 || monkeyDecisions == 4)
+                {
                     monkey = true;
+                    usingMuscle = false;
+                    speakingMonkey = false;   
+                }
+                  
                 if(pressed && nextStates.Length == 2)
                 {
                     pressed = false;
